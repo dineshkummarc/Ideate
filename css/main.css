@@ -261,15 +261,22 @@ html {
 	#reveal .controls a {
 		font-size: 30px;
 		position: absolute;
-		color: #FF5E99;
+		color: #fff;
 		opacity: 0.3;
 		color: #fff;
 	}
 		#reveal .controls a.enabled {
-			opacity: 0.8;
-			color: #FF5E99;
-
-			text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
+			opacity: 0.7;
+			color: #fff;
+		}
+		#reveal .controls a.enabled:hover {
+			opacity: 1.0;
+			background: transparent;
+			-webkit-transform: scale(1.06);
+			-moz-transform: scale(1.06);
+		}
+		#reveal .controls a:hover {
+			background: transparent;
 		}
 		#reveal .controls a.enabled:active {
 			margin-top: 1px;
