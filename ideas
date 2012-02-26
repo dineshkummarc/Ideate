@@ -188,3 +188,20 @@ When?:  Now.
 How?:   By designing interfaces for small screens and maximizing productivity.
         Providing an extensive toolkit to allow coders for their applications.
 
+________________________________________________________________________________
+
+Name:   Bon Appétit
+Desc:   Lets people dine together by tapping their social circles.
+
+Question: How to kill the habit of eating alone?
+
+What?   An application that gets you hooked up with friends of friends so you could grab food together.
+Why?    Discover amazing people over dinner.
+Who?    Anyone who has ever wanted to have a nice conversation over dinner.
+Where?  Coming to a restaurant near you.
+When?   Would love to use it tonight.
+
+How?    Review user’s network to filter out potentially unsafe people.
+	    Give Recommendations.
+    	Obtain consent.
+    	Suggest restaurants based on proximity.
