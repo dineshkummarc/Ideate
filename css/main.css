@@ -977,3 +977,23 @@ html {
    -o-transform:      rotate(-70deg);
    content: '';
 }
+
+#sharer{
+    width:70%;
+    background-color:transparent;
+    line-height:2em;
+    font-size:1.2em;
+    font-family: 'Nixie One', Times, 'Times New Roman', serif;
+    word-spacing:.5em;
+    text-align:center;
+    color:#eee;
+    margin:auto;
+}
+
+small a{
+    margin: 0;
+    line-height: 0;
+    vertical-align: super;
+}
+
+#sharer a{color:#eee;font-style:normal;display:inline;background-color:#222;padding:.1em .4em;}#sharer a:hover{color:#222;background-color:#0B61A4;font-weight:bolder;}
