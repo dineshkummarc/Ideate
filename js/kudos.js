@@ -48,8 +48,11 @@ $(document).ready(function() {
 
         if(!$(this).hasClass('done')){
           endpoint = $(this).find('a').attr("href");
+          a = endpoint.split("/");
+          categ = a[a.length-1];
           addKudos(endpoint, this);
           $(this).removeClass('waiting').addClass('done');
+          _gaq.push(['_trackEvent', 'Kudos', 'Categ', categ]);
         }
         $(this).removeClass('waiting').addClass('done');
       },$(this));
