@@ -37,7 +37,7 @@
 					</p>
 					<script>
 						// Delicously hacky. Look away.
-						if( !navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) )
+						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) )
 						document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
 					</script>
 				</section>
@@ -979,7 +979,6 @@
 				transition: query.transition || 'concave' // default/cube/page/concave/linear(2d)
 			});
 
-			hljs.initHighlightingOnLoad();
 		</script>
 
         <script>
