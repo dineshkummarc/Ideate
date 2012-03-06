@@ -37,7 +37,7 @@
 					</p>
 					<script>
 						// Delicously hacky. Look away.
-						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) )
+						if( !navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) )
 						document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
 					</script>
 				</section>
@@ -923,10 +923,10 @@
 					    
 					    <strong>Spread the love!</strong>
 					    <div id="sharer">
-				            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=Some+Ideas&p%5Burl%5D=http%3A%2F%2Fidea.diwank.name&p%5Bsummary%5D=Some+really+awesome+ideas%21%21" onclick="if((window.navigator.userAgent.toLowerCase().search('mobi'))<0)window.open('http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=Some+Ideas&p%5Burl%5D=http%3A%2F%2Fidea.diwank.name&p%5Bsummary%5D=Some+really+awesome+ideas%21%21','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;" title="Facebook" target="_blank">fb</a>
-				            <a href="https://twitter.com/intent/tweet?text=Some+really+awesome+ideas%3A&url=http%3A%2F%2Fidea.diwank.name&via=meetdagod" onclick="if((window.navigator.userAgent.toLowerCase().search('mobi'))<0)window.open('https://twitter.com/intent/tweet?text=Some+really+awesome+ideas%3A&url=http%3A%2F%2Fidea.diwank.name&via=meetdagod','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;" title="Twitter" target="_blank">tw</a>
-				            <a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fidea.diwank.name" onclick="if((window.navigator.userAgent.toLowerCase().search('mobi'))<0)window.open('https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fidea.diwank.name','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;" title="Google+" target="_blank">g+</a>
-				            <a href="http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fidea.diwank.name&t=Interesting+Startup+Ideas" onclick="if((window.navigator.userAgent.toLowerCase().search('mobi'))<0)window.open('http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fidea.diwank.name&t=Interesting+Startup+Ideas','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;" title="Hacker News" target="_blank">hn</a>
+				            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=Some+Ideas&p%5Burl%5D=http%3A%2F%2Fidea.diwank.name&p%5Bsummary%5D=Some+really+awesome+ideas%21%21" onclick="if( !navigator.userAgent.toLowerCase().match( /(iphone|ipad|ipod|android|mini|mobi)/i ) ){window.open('http://www.facebook.com/sharer/sharer.php?s=100&p%5Btitle%5D=Some+Ideas&p%5Burl%5D=http%3A%2F%2Fidea.diwank.name&p%5Bsummary%5D=Some+really+awesome+ideas%21%21','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;}" title="Facebook" target="_blank">fb</a>
+				            <a href="https://twitter.com/intent/tweet?text=Some+really+awesome+ideas%3A&url=http%3A%2F%2Fidea.diwank.name&via=meetdagod" onclick="if( !navigator.userAgent.toLowerCase().match( /(iphone|ipad|ipod|android|mini|mobi)/i ) ){window.open('https://twitter.com/intent/tweet?text=Some+really+awesome+ideas%3A&url=http%3A%2F%2Fidea.diwank.name&via=meetdagod','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;}" title="Twitter" target="_blank">tw</a>
+				            <a href="https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fidea.diwank.name" onclick="if( !navigator.userAgent.toLowerCase().match( /(iphone|ipad|ipod|android|mini|mobi)/i ) ){window.open('https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Fidea.diwank.name','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;}" title="Google+" target="_blank">g+</a>
+				            <a href="http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fidea.diwank.name&t=Interesting+Startup+Ideas" onclick="if( !navigator.userAgent.toLowerCase().match( /(iphone|ipad|ipod|android|mini|mobi)/i ) ){window.open('http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fidea.diwank.name&t=Interesting+Startup+Ideas','','scrollbars=yes,width=660,height=328');_gaq.push(['_trackEvent', 'Social', 'Share', this.title]);return false;}" title="Hacker News" target="_blank">hn</a>
 			            </div>
 					</p>
 
