@@ -15,10 +15,6 @@
 		<link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/kudos.css">
 
-		<script src="js/jquery.js"></script>
-        <script src="js/jquery.iframe.js"></script>
-
-        <script src="js/kudos.js"></script>
 
 	</head>
 	
@@ -919,7 +915,7 @@
 						That was one <strong>HUGE</strong> list.<br>
 					    Thanks for putting up with us so far.<br><br>
 					    
-                        <strong>Do <a href="/suggest">suggest your own ideas.</a></strong><br><br>
+                        <strong>Do <a href="/suggest" onclick="_gaq.push(['_trackEvent', 'Suggestion', 'UserSuggests', this.title]);" title="suggestform">suggest your own ideas.</a></strong><br><br>
 					    
 					    <strong>Spread the love!</strong>
 					    <div id="sharer">
@@ -947,8 +943,7 @@
 			
 		</div>
 		
-		<script src="js/reveal.js"></script>
-		<script src="js/highlight.js"></script>
+		<script src="js/combined.js"></script>
 		<script>
 			// Parse the query string into a key/value object
 			var query = {};
@@ -990,3 +985,4 @@
 
 	</body>
 </html>
+
